@@ -7,24 +7,24 @@ function Shop() {
   return (
     <>
       <div className="w-full h-fit bg-home">
-        <div className="w-[900px] h-full flex  flex-col items-start text-left md:justify-center mx-auto">
-          <h1 className=" md:text-5xl md:font-bold text-white md:mb-4 font-bold text-4xl items-start">Serving you</h1>
-          <h1 className=" md:text-5xl font-bold text-white">since 1989</h1>
-          <p className="text-white font-medium mt-2 leading-6 md:text-md">
+        <div className="md:w-[900px] w-fit h-full flex flex-col items-start text-left md:justify-center mx-auto ">
+          <h1 className=" md:text-5xl md:font-bold text-white md:mb-4 font-bold text-4xl items-start m-4">Serving you</h1>
+          <h1 className=" md:text-5xl font-bold text-white mx-4">since 1989</h1>
+          <p className="text-white font-medium md:mt-2 md:leading-6 md:text-md m-4">
             Acme Outdoors is an outdoor and adventure <br /> shop located in the
             Boathouse District in <br />
             Oklahoma City.
           </p>
           <button
-            className="px-4 py-1 rounded-md text-sm border-[1px] border-slate-200 text-white mt-6 hover:bg-white hover:text-black
-          hover:duration-300 font-semibold "
+            className="px-4 py-1 rounded-md text-sm border-[1px] border-slate-200 text-white md:mt-6 hover:bg-white hover:text-black
+          hover:duration-300 font-semibold mx-4 "
           >
             Shop merch
           </button>
         </div>
       </div>
-      <div className="w-full h-fit text-[#222]">
-        <div className="w-[900px] mx-auto h-fit flex justify-between flex-wrap ">
+      <div className="w-fit h-fit text-[#222]">
+        <div className="w-[900px] md:mx-auto md:h-fit flex justify-between flex-wrap ">
           <div className=" h-20 ml-8 mt-8 w-96">
             <p className="pt-2 text-sm">WAYS TO SUPPORT</p>
             <h1 className="text-3xl font-bold">Support Acme Outdoors.</h1>
@@ -36,7 +36,7 @@ function Shop() {
               we’ve listed the best ways to help us through this season.
             </p>
           </div>
-          <div className=" w-full m-8 h-fit flex justify-evenly md:flex-row flex-col">
+          <div className=" w-fit m-8 h-fit flex justify-evenly md:flex-row flex-col">
             <TileHome serial="01" />
             <TileHome serial="02" />
             <TileHome serial="03" />

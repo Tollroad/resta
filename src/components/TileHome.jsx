@@ -4,7 +4,7 @@ function TileHome(props) {
   return (
    <>
     <div className=" mx-2 w-fit h-fit">
-              <div className="rounded-md text-white border-2 bg-[#222] w-full h-64">
+              <div className="rounded-md text-white border-2 bg-[#222] md:w-full md:h-64">
                 <h1 className="m-4 font-bold text-2xl">{props.serial}</h1>
                 <p className="flex text-center justify-center items-center text-5xl font-semibold">
                   Shop
