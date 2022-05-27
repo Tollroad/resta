@@ -1,5 +1,4 @@
 import "./App.css";
-import Footer from "./components/Footer";
 import Shop1 from "./components/Shop1";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router";
